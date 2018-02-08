@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49946C71202BBD430015ABC0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49946C70202BBD430015ABC0 /* Network.swift */; };
+		49946C73202BBE660015ABC0 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49946C72202BBE660015ABC0 /* Show.swift */; };
+		49946C75202BC3E60015ABC0 /* TrendingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49946C74202BC3E60015ABC0 /* TrendingCollectionViewController.swift */; };
 		49FBE687202BB6EA00EA7664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE686202BB6EA00EA7664 /* AppDelegate.swift */; };
 		49FBE689202BB6EA00EA7664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FBE688202BB6EA00EA7664 /* ViewController.swift */; };
 		49FBE68C202BB6EA00EA7664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FBE68A202BB6EA00EA7664 /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 /* Begin PBXFileReference section */
 		0AC92D13081B7708292118B4 /* Pods_ShoppingCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE9177623000C8F18103775 /* Pods-ShoppingCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingCart.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart.release.xcconfig"; sourceTree = "<group>"; };
+		49946C70202BBD430015ABC0 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		49946C72202BBE660015ABC0 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		49946C74202BC3E60015ABC0 /* TrendingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCollectionViewController.swift; sourceTree = "<group>"; };
 		49FBE683202BB6EA00EA7664 /* ShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBE686202BB6EA00EA7664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49FBE688202BB6EA00EA7664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +70,9 @@
 				49FBE686202BB6EA00EA7664 /* AppDelegate.swift */,
 				49FBE688202BB6EA00EA7664 /* ViewController.swift */,
 				49FBE68A202BB6EA00EA7664 /* Main.storyboard */,
+				49946C70202BBD430015ABC0 /* Network.swift */,
+				49946C74202BC3E60015ABC0 /* TrendingCollectionViewController.swift */,
+				49946C72202BBE660015ABC0 /* Show.swift */,
 				49FBE68D202BB6EA00EA7664 /* Assets.xcassets */,
 				49FBE68F202BB6EA00EA7664 /* LaunchScreen.storyboard */,
 				49FBE692202BB6EA00EA7664 /* Info.plist */,
@@ -220,7 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FBE689202BB6EA00EA7664 /* ViewController.swift in Sources */,
+				49946C75202BC3E60015ABC0 /* TrendingCollectionViewController.swift in Sources */,
 				49FBE687202BB6EA00EA7664 /* AppDelegate.swift in Sources */,
+				49946C73202BBE660015ABC0 /* Show.swift in Sources */,
+				49946C71202BBD430015ABC0 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
